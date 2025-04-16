@@ -54,6 +54,7 @@ def item_cf(ratings_matrix, mu_query, neigh):
 
 
 # Inputs
+# users on columns, movies on rows
 ratings_matrix = np.array([
     [1, 0, 3, 0, 0, 5, 0, 0, 5, 0, 4, 0],
     [0, 0, 5, 4, 0, 0, 4, 0, 0, 2, 1, 3],
